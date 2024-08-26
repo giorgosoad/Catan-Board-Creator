@@ -1,0 +1,13 @@
+.hex-tile {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px; /* Optional: make the hex image look nicer */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow effect */
+    transition: transform 0.2s ease;
+  }
+  
+  .hex-tile:hover {
+    transform: scale(1.1); /* Optional: zoom effect on hover */
+  }
+  

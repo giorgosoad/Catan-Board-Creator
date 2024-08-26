@@ -1,0 +1,19 @@
+.board {
+    width: 100%;
+    height: 100vh; /* or a specific height */
+    background-color: #f0f0f0; /* Light background */
+    position: relative;
+    overflow: hidden; /* Ensure nothing overflows the board */
+    border: 2px dashed #ccc; /* Optional: visual indication of the drop area */
+  }
+  
+  .piece {
+    width: 60px; /* Adjust size as needed */
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .piece.selected {
+    outline: 2px solid blue; /* Highlight selected piece */
+  }
+  

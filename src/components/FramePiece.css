@@ -1,0 +1,13 @@
+.frame-piece {
+    width: 80px; /* Adjust the size to your liking */
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: shadow effect */
+    transition: transform 0.2s ease;
+  }
+  
+  .frame-piece:hover {
+    transform: scale(1.1); /* Optional: zoom effect on hover */
+  }
+  

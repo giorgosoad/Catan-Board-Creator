@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #980000ea;
+    color: rgba(237, 195, 6, 0.944);
+    font-size: 36px; /* Increased font size */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Pacifico', cursive; /* Apply Pacifico font */
+  }
+  
+  .title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
